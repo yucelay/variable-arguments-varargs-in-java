@@ -27,7 +27,7 @@ public class PossibilityCalculate {
 
 		newList.add(colors);
 		newList.add(sizes);
-		newList.add(patterns);
+		//newList.add(patterns);
 
 		func(newList);
 
@@ -38,7 +38,7 @@ public class PossibilityCalculate {
 		// red-s-leather
 		// ...
 		// green-xl-leather
-		if (inputs.size() > 2) {
+		if (inputs.size() >= 2) {
 			List<String> temp = new ArrayList<>();
 			temp = inputs.get(0);
 			List<String> list = null;
